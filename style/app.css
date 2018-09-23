@@ -1,0 +1,160 @@
+@font-face {
+  font-family: DTM-Sans;
+  src: url(fonts/DTM-Sans.otf);
+}
+@font-face {
+  font-family: DTM-Mono;
+  src: url(fonts/DTM-Mono.otf);
+}
+.GalleryTitle, .text-box h1 {
+  font-family: DTM-Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+.text-box ul {
+  font-family: DTM-Mono, monospace;
+  font-size: 13px;
+  font-weight: 300px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  width: auto;
+}
+
+section {
+  box-sizing: border-box;
+}
+
+.text-box {
+  box-sizing: border-box;
+  margin: 16px;
+  padding: 13px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+}
+.text-box h1 {
+  margin: 0;
+}
+.text-box ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+#sign {
+  width: 100%;
+  text-align: center;
+  margin: 32px 0 32px 0;
+  box-sizing: border-box;
+}
+#sign h1 {
+  display: inline;
+  text-transform: uppercase;
+  font-family: DTM-Sans, sans-serif;
+  font-weight: 900px;
+  font-size: 32px;
+}
+
+.soul-heart {
+  width: auto;
+}
+
+@media (max-width: 576px) {
+  .soul-heart {
+    width: auto;
+    margin: 3px 12px 3px 12px;
+  }
+}
+@media (min-width: 577px) {
+  .soul-heart {
+    width: auto;
+    margin: 3px 32px 3px 32px;
+  }
+}
+#portfolio {
+  width: 100%;
+}
+
+.gallery {
+  margin: 32px 16px 32px 16px;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.GalleryTitle {
+  flex: 0 1 100%;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 16px 0 16px;
+  background-color: #fff;
+  color: #000;
+}
+
+.project {
+  box-sizing: border-box;
+  padding: 32px;
+}
+.project img {
+  padding: 0;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.caption {
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .project {
+    flex-direction: column;
+  }
+}
+@media (min-width: 576px) {
+  .project {
+    width: 50%;
+    flex-grow: 1;
+  }
+}
+@media (min-width: 768px) {
+  .project {
+    width: 50%;
+    flex-grow: 1;
+  }
+}
+@media (min-width: 992px) {
+  .project {
+    width: 33%;
+    flex-grow: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .project {
+    width: 33%;
+    flex-grow: 0;
+  }
+}
+footer {
+  width: 100%;
+  text-align: center;
+}
+footer p {
+  font-family: DTM-Mono, monospace;
+  font-size: 9px;
+  font-weight: 300px;
+}
+
+/*# sourceMappingURL=app.css.map */
